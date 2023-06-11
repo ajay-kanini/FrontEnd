@@ -1,74 +1,18 @@
-<section class="vh-100">
-  <div class="container-fluid h-custom">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col-md-9 col-lg-6 col-xl-5">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
-          class="img-fluid" alt="Sample image">
-      </div>
-      <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-        <form>
-        
-          <div class="form-outline mb-4">
-            <input type="email" id="form3Example3" class="form-control form-control-lg"
-              placeholder="Enter your name" />
-          </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Intern Management</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-          <div class="form-outline mb-3">
-            <label >&nbsp; Enter date of birth</label>
-            <input type="date" id="form3Example4" class="form-control form-control-lg"
-               />
-          </div>        
-        
-          <div class="form-outline mb-3">
-            <input type="password" id="form3Example4" class="form-control form-control-lg"
-              placeholder="Enter a valid mail " />
-          </div>
-        
-          <div class="form-outline mb-3">
-            <input type="password" id="form3Example4" class="form-control form-control-lg"
-              placeholder="Enter your phone number" />
-          </div>
-
-           <div class="form-outline mb-3">
-            <input type="password" id="form3Example4" class="form-control form-control-lg"
-              placeholder="Enter gender" />
-          </div>
-
-          <div class="text-center text-lg-start mt-4 pt-2">
-            <button type="button" class="btn btn-primary btn-lg"
-              style="padding-left: 2.5rem; padding-right: 2.5rem;">Register</button>
-              &nbsp; &nbsp; &nbsp; &nbsp;         
-            <button type="button" class="btn btn-primary btn-lg"
-            style="padding-left: 2.5rem; padding-right: 2.5rem;" (click)="loginRoute()">Login</button>  
-          </div>
-        </form>
-      </div>
-    </div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" (click)="registerRoute()">Register <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item"> 
+        <a class="nav-link" href="#">Login</a>
+      </li>
+    </ul>
   </div>
-  <div id="footer"
-    class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
-    <!-- Copyright -->
-    <div class="text-white mb-3 mb-md-0, foorterText ">
-      Copyright © 2023. All rights reserved.
-    </div>
-    <!-- Copyright -->
-
-    <!-- Right -->
-    <div>
-      <a href="#!" class="text-white me-4">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="#!" class="text-white me-4">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="#!" class="text-white me-4">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="#!" class="text-white">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </div>
-    <!-- Right -->
-  </div>
-</section>
+</nav>
 <router-outlet></router-outlet>

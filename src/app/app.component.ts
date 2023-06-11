@@ -13,6 +13,10 @@ export class AppComponent {
   {
     
   }
+  registerRoute()
+  {
+    this.router.navigate(["register"]);
+  }
   loginRoute()
   {
     this.router.navigate(["login"]);
