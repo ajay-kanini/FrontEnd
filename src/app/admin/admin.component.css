@@ -12,13 +12,9 @@
 {
     text-align: center;
 }
-#register
+.bg
 {
     font-weight: bold;
-}
-.form-label
-{
-    font-size: large;
-    font-style: oblique;
-    font-weight: bold;
+    position: relative;
+    top:-2.5px;
 }
